@@ -1,0 +1,620 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:OPKOKO 16.1
+PRODID:-//Apple Inc.//Mac OS X 10.11.5//EN
+X-APPLE-CALENDAR-COLOR:#1BADF8
+X-WR-TIMEZONE:Europe/Stockholm
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:CEST
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:CET
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T081500
+DTEND;TZID=Europe/Madrid:20160604T084500
+SUMMARY:Inledning
+LOCATION:Atocha
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T084500
+DTEND;TZID=Europe/Madrid:20160604T091500
+SUMMARY:State of the Nation
+LOCATION:Atocha
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T092500
+DTEND;TZID=Europe/Madrid:20160604T094000
+SUMMARY:⚡ Behövs branscher?
+LOCATION:Plaza
+DESCRIPTION:Det är enkelt att skapa brancher i Git och populära versionshanteringsstrategier som Git Workflow bygger i högsta grad på en uppsättning av olika typer av brancher. Men i vilken utsträckning behövs brancher? Behövs de alls?\n\nTalare: Jakob Kylberg\nMålgrupp: Alla som versionshanterar kod\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T092500
+DTEND;TZID=Europe/Madrid:20160604T094000
+SUMMARY:⚡ Digitala fingeravtryck i 3D
+LOCATION:Castellana
+DESCRIPTION:När man pratar om digitala fingeravtryck menar man en kombination av egenskaper i webbläsaren som user agent, installerade insticksmoduler, kakor, mm. I denna föreläsning kommer jag att ta det steget längre och visa på att det finns mer långlivade och lika (eller mer) lättåtkomliga fingeravtryck i hårdvaran i våra mobila enheter.\n\nTalare: Anna Karlsson\nMålgrupp: De som bryr sig om sin integritet\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T092500
+DTEND;TZID=Europe/Madrid:20160604T094000
+SUMMARY:⚡ Den ofrivillige arkitekten, en GNILP
+LOCATION:El Prado
+DESCRIPTION:"Du får vara arkitekt". Med betänketid på en sådär tio sekunder förändras mitt uppdrag på Storbanken fundamentalt. Det är upptakten till en historia med hotade tidsplaner, incidental komplexitet, en miljon galna användare, stordatorn, Oracle-licenser... och mitt i kaoset en liten men principfast arkitekt som insisterar på att ha avvikande åsikter. Detta är historien om hur vi utmanade vattenfallet, hur vi inspirerade en hel generation svenskar att gräva djupare i sin ekonomi än saldot på lönekontot, min vacklande självbild och ett stort, om än mödosamt, kliv i karriären.\n\nTalare: Markus Örebrand\nMålgrupp: Konsulter, konsultchefer, säljare, ekonomer och företagsledare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T092500
+DTEND;TZID=Europe/Madrid:20160604T094000
+SUMMARY:⚡ GeoPositionering: Konsten att hitta sig själv
+LOCATION:Recoletos
+DESCRIPTION:De första satelliterna för GPS-systemet skickades upp 1978. Systemet fungerar bra så länge användaren har fri sikt mot himlen. Frågan är vad gör man när man inte längre är utomhus. Apples svar på frågan kan heta iBeacon.\n\nTalare: Fredrik Stålnacke\nMålgrupp: Nyfikna\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T092500
+DTEND;TZID=Europe/Madrid:20160604T110000
+SUMMARY:Angular 2 introduktion och workshop
+LOCATION:Embajadores
+DESCRIPTION:I denna workshop kommer vi gå igenom den nya arkitekturen i Angular 2.0 och hur man utvecklar angularkomponenter i Typescript. Innan workshopen kommer följande delar beskrivas så alla får en introduktion nödvändig för att genomföra labbmomentet: övergripande arkitektur i Angular 2, komponenter och komponentklasser, rendering i Angular2, komponentträd och zones, modulär design med hjälp av Typescript/ES6, databindning (en-väg och två-väg), direktiv, services och dependency injection, routing.\n\nTalare: Olle Thalén\nMålgrupp: Frontendutvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T094500
+DTEND;TZID=Europe/Madrid:20160604T100000
+SUMMARY:⚡ Litar du på all din kod nu för tiden?
+LOCATION:Plaza
+DESCRIPTION:Hur kan vi kontrollera säkerhet och kvalitet i externa kodkomponenter i Continuous Integration / Continuous Delivery sammanhang. 80 - 90 % av all kodbas hämtas från Internet, ibland i realtid. Hur kan vi säkerställa att all kod beter sig korrekt?\n\nFrågor och diskussion.\n\nTalare: Nada Kapidzic Cicovic (och ev. George Spalding)\nMålgrupp: Utvecklare, säkerhetsfolk, test\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T094500
+DTEND;TZID=Europe/Madrid:20160604T100000
+SUMMARY:⚡ Är du säker? Informationssäkerhet i leverantörsavtal
+LOCATION:Castellana
+DESCRIPTION:Hoten ökar samtidigt som lagar och förordningar förändras. Vi förlitar oss i allt större utsträckning på outsourcing och molntjänster och leverantörskedjorna blir längre och längre. Hur bra koll har vi på att både vår egen information, och den vi åtagit oss att hantera åt andra, skyddas på rätt sätt?\nJag kommer att gå igenom varför det är viktigt att inkludera informationssäkerhetskrav i avtal. Och hur man gör det.\n\nTalare: Maria Sychut\nMålgrupp: Alla som ingår avtal eller är rådgivande i avtalsfrågor (privat eller åt företag)\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T094500
+DTEND;TZID=Europe/Madrid:20160604T100000
+SUMMARY:⚡ Konsult(t)rollen – Det är bara två saker du behöver leverera
+LOCATION:El Prado
+DESCRIPTION:Efter mer än 30 år i olika konsultroller har jag kommit fram till att det är två saker man måste leverera. Ger också några få men viktiga tips för att klara detta.\n\nTalare: Carl-Arne Johannesson\nMålgrupp: Konsulter och deras chefer.\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T094500
+DTEND;TZID=Europe/Madrid:20160604T100000
+SUMMARY:⚡ Bring Your Own GSM
+LOCATION:Recoletos
+DESCRIPTION:GSM såg dagens ljus under tidiga nittitalet, men det har länge varit svårt och framförallt dyrt att undersöka och förstå hur GSM är implementerat och fungerar i praktiken. Idag finns öppna implementationer av hård- och mjukvara för GSM som tillåter dig att labba och undersöka själv.\nI denna blixt beskriver Jakob hur man kan sätta upp och experimentera med ett eget GSM nät.\n\nTalare: Jakob Petersson\nMålgrupp: Mjuk/Hårdvaru-hackers\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T100000
+DTEND;TZID=Europe/Madrid:20160604T103000
+SUMMARY:🍪 Fika
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T103000
+DTEND;TZID=Europe/Madrid:20160604T111500
+SUMMARY:Beyond Lambdas, the Aftermath
+LOCATION:Plaza
+DESCRIPTION:As Java developers we are used to having rich ecosystems of libraries and tools that make our lives easier. As of the release of Java 8, we finally got our hands on building blocks like lambdas, optionals, and streams. All sorts of tools that help us write more concise code. But now, when the honeymoon is over, are there any downsides to Java 8 or is it a silver bullet? Are there any new anti-patterns emerging? Or subtle bugs caused by the new style of programming? Have there been any lessons learned? Are there any best practices? If you are interested in learning about the challenges encountered when moving over to a functional style of Java programming, what code constructs to avoid, and best practices to use, well then this session is for you.\n\nTalare: Daniel Deogun, Daniel Sawano\nMålgrupp: Utvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T103000
+DTEND;TZID=Europe/Madrid:20160604T111500
+SUMMARY:Säkra REST API:er med OAuth 2
+LOCATION:Castellana
+DESCRIPTION:Hur säkrar men REST API:er? Presentationen ger en kort introduktion till token-baserad säkerhet (med JWT) och extern autentisering. Samt ger en grundläggande förståelse för vad OAuth 2 är, varför det (oftast) krävs något ovanpå (t ex OpenId Connect) och vilka designbeslut man som arkitekt/utvecklare behöver ta för att implementera: Resursserver, klient och auktorisationsserver, samt hantering av Refresh token\n\nDetta är samma presentation som hölls i samband med januari månadsmötet i Göteborg (med några mindre kompletteringar) och kan med fördel kombineras med en efterföljande workshop för utvecklare där man bygger en egen klient och ev resursserver som konsumerar tokens från en OAuth 2 implementation (hostad i Azure).\n\nTalare: Tobias Ahnoff\nMålgrupp: Alla som är intresserade av hur man hanterar säkerhet för REST API:er.\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T103000
+DTEND;TZID=Europe/Madrid:20160604T111500
+SUMMARY:Vill ni ha det klart eller vill ni ha det bra?
+LOCATION:El Prado
+DESCRIPTION:När jag började som apputvecklare på Volvo var det allmän oreda. Under det senaste året har vi som grupp rört oss mot agilutveckling och ökat fokus på att leverera stabila appar med hög kodkvalitet. I denna presentationen förklarar jag hur processen har sett ut och vilka steg som har tagits.\n\nTalare: Christoffer Lagerstedt\nMålgrupp: Projektledare, utvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T103000
+DTEND;TZID=Europe/Madrid:20160604T111500
+SUMMARY:Docker ♥ DevOps
+LOCATION:Recoletos
+DESCRIPTION:Hur kan man förverkliga DevOps-drömmen?\nHur kan utvecklare testa i samma miljö som i produktion?\n Hur får man till ett skönt Continuous deliveryöde?\n\nVi kommer gå igenom olika tekniker för att försöka lösa ovanstående, men även ha en diskussion om era erfarenheter och ideer.\n\nTalare: Johan Ekblad\nMålgrupp: De som är DevOps-intresserade\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T112000
+DTEND;TZID=Europe/Madrid:20160604T120500
+SUMMARY:RxJava - Everything is a Stream
+LOCATION:Plaza
+DESCRIPTION:RxJava är Javaimplementationen av reactive extentions, byggt och opensourcat av Netflix. Med RX komponeras din kod ihop till eventbaserade dataströmmar, vilket får systemen att klara av betydligt högre last genom att underlätta asynkronitet.\nObs, RX finns till flera språk och ser typ likadant ut i alla. Föreläsningen passar därför alla utvecklare.\n\nTalare: Pontus Thulin\nMålgrupp: Utvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T112000
+DTEND;TZID=Europe/Madrid:20160604T120500
+SUMMARY:Exjobb på Omegapoint – Domain Driven Security
+LOCATION:Castellana
+DESCRIPTION:Säkerhet är ständigt på kartan och två av dagens stora problem är injection och DDoS attacker. Nuvarande lösningar stoppar många av dessa attacker, men ändå existerar problemen. Domain Driven Security (DDS) är Omegapoints föreslagna lösning på dessa problem och har därför satt två minions på att utvärdera om detta är möjligt. Med hjälp av concept från Domain Driven Design (DDD) försöker DDS tackla dessa problem på nya och innovativa sätt. Häng med och se hur det har gått för våra exjobbare!\n\nTalare: Johan Arnör och Jonas Stendahl\nMålgrupp: Utvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T112000
+DTEND;TZID=Europe/Madrid:20160604T120500
+SUMMARY:Balanced Score Card á la agile-sinnad organisation – teori och case
+LOCATION:El Prado
+DESCRIPTION:När man väl kommit förbi den första skepticismen över "kvartalsekonomi-ledaskap" så visar sig Balanced Score-Card vara ett utmärkt verktyg att sätta i händerna på en ledningsgrupp för att uppmuntra till agile-sinnad styrning. Man får dock hjälpa dem lite på vägen - även en bra kniv går att skära sig på. Vi går igenom lite teori och historik för Balanced Score-Card, diskuterar hur det relaterar till arbete a la agile/lean samt tittar på två konkreta exempel från mina uppdrag.\n\nTalare: Dan Bergh Johnsson\nMålgrupp: De som frustrerats över "glastaket" i organisationen och varför ledningsgrupper beter sig så konstigt.\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T112000
+DTEND;TZID=Europe/Madrid:20160604T120500
+SUMMARY:The Simple Work ow Experience
+LOCATION:Recoletos
+DESCRIPTION:Det här blir en djupdykning i en av Amazons molntjänster, Simple Workflow (SWF). Det jag vill visa är hur man med hjälp av SWF kan utveckla asynkrona och distribuerade applikationer där utvecklaren kan koncentrera sig på att leverera funktionalitet medan SWF sköter koordineringen av tasks, hantering av exekveringstillstånd med mera på ett tillförlitligt sätt.\n\nTalare: Fredrik Thernelius\nMålgrupp: Utvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T112000
+DTEND;TZID=Europe/Madrid:20160604T125500
+SUMMARY:Docker och AWS ECS
+LOCATION:Embajadores
+DESCRIPTION:Workshop om Microservices med Docker och AWS Elastic Container Service som plattform.\n\nTalare: Marc Engström och Daniel Lindberg\nMålgrupp: Utvecklare och arkitekter\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T121000
+DTEND;TZID=Europe/Madrid:20160604T125500
+SUMMARY:Vårdat, enkelt och begripligt
+LOCATION:Plaza
+DESCRIPTION:Språklagen från 2011 sätter krav på att språket som myndigheter använder sig av ska vara "Vårdat, enkelt och begripligt". Detta är ett mål som är omöjligt att uppnå med manuell textanalys med tanke på de volymer som publiceras årligen. Föreläsningen ger en inblick i vad läsbarhet är, hur man utvärderar olika metoder för att analysera texters läsbarhet, varför nya utvärderingsmetoder behövs samt vilka verktyg som kan användas för att hjälpa svenska myndigheter.\n\nTalare: David Strömberg\nMålgrupp: Alla som talar flytande svenska\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T121000
+DTEND;TZID=Europe/Madrid:20160604T125500
+SUMMARY:Testautomatisering – när, vad och hur?
+LOCATION:Castellana
+DESCRIPTION:Manuell testning inför release är inte bara tröttsamt och kostsamt, utan det brukar även vara lätt att förbise vissa fel. Att automatisera sin testning är ett bra alternativ, men var ska man börja för att få mest nytta av sin testning? I denna presentationen kommer jag visa exempel på när automatisk testning är den bästa lösningen, samt några praktiska exempel på hur och vad man bör automatisera.\n\nTalare: Erica Löfström\nMålgrupp: Utvecklare, testare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T121000
+DTEND;TZID=Europe/Madrid:20160604T125500
+SUMMARY:Omegapythons’s Meaning of Life
+LOCATION:El Prado
+DESCRIPTION:Varför jobbar vi på Omegapoint? Vad vill du ha ut av Omegapoint? Vad gör OP till "inte bara ett annat degjobb"? Vilka krav betyder det att vi ska ställa på våra kunder? Har vi de kunderna som uppfyller våra professionella mål? Har vi kunder vi borde välja bort?\n\nTalare: Tomas Karlsson, Simon Tardell\nMålgrupp: Alla\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T121000
+DTEND;TZID=Europe/Madrid:20160604T125500
+SUMMARY:Meddelandehantering med Apache Kafka
+LOCATION:Recoletos
+DESCRIPTION:Hur ska man göra i en microservice-värld när era andra services vill ha information från min service? Vem är ansvarig för att datan når fram? Jag tittar på Apache Kafka och dess meddelandehantering. Kan det hjälpa mig med mina problem och i så fall hur?\n\nTalare: Fredrik Löfgren\nMålgrupp: Utvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T130000
+DTEND;TZID=Europe/Madrid:20160604T140000
+SUMMARY:🍽 Lunch
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T140000
+DTEND;TZID=Europe/Madrid:20160604T180000
+SUMMARY:Omegapoint Travel Award
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T180000
+DTEND;TZID=Europe/Madrid:20160604T190000
+SUMMARY:Målgång på Rincon de la Cava
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T190000
+DTEND;TZID=Europe/Madrid:20160604T200000
+SUMMARY:🆓 Fri tid
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T200000
+DTEND;TZID=Europe/Madrid:20160604T203000
+SUMMARY:🚌 Buss från hotellet
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160604T203000
+DTEND;TZID=Europe/Madrid:20160604T203500
+SUMMARY:🍽 Middag på Asador Real
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T130000
+DTEND;TZID=Europe/Madrid:20160605T140000
+SUMMARY:🍽 Lunch
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T140000
+DTEND;TZID=Europe/Madrid:20160605T140500
+SUMMARY:🚲 Samling för cykling
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T141500
+DTEND;TZID=Europe/Madrid:20160605T142000
+SUMMARY:🖼 Samling för kulturpromenad
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T183000
+DTEND;TZID=Europe/Madrid:20160605T183500
+SUMMARY:💪 Omegapoint Strongman
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T200000
+DTEND;TZID=Europe/Madrid:20160605T200500
+SUMMARY:Samling i hotellets trädgård
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T210000
+DTEND;TZID=Europe/Madrid:20160605T210500
+SUMMARY:🍽💃 Middag och fest
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T083000
+DTEND;TZID=Europe/Madrid:20160605T091500
+SUMMARY:Tusen ord säger mer än en bild
+LOCATION:Plaza
+DESCRIPTION:Bilder är ett kraftfullt verktyg för att förmedla idéer. Men om idéerna är enkla att uttrycka, varför är det så kladdigt att rita bilder? Vi tittar på verktyg för att generera bilder och diagram från text. Text som kan versionshanteras och verktyg som kan delta i byggkedjor.\n\nTalare: Simon Tardell\nMålgrupp: Utvecklare i själ och hjärta.\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T083000
+DTEND;TZID=Europe/Madrid:20160605T091500
+SUMMARY:Q-seminarium på universitet
+LOCATION:Castellana
+DESCRIPTION:"Systemutveckling = vattenfall" och "Test är en fas man utför någon gång på slutet". Det är citat som många av oss fått höra under våra år på universitetet, men nu får det f*n vara nog! Det är dags att vår tids studenter får lära sig vikten av Quality, och då menar vi inte bara test utan allt som rör Q. Vi samlar information till en framtida föreläsning för universitetsstudenter och vi vill ha din hjälp. Vad tycker DU är det viktigaste med Q som vi ska upplysa våra framtida kollegor om? Vad hade DU velat veta om Q när du själv var student? Låt oss diskutera och inspireras av varandras erfarenheter! Hjärtligt välkommen!\n\nTalare: Lina Fjeldgård och Örjan Bjermert\nMålgrupp: Alla som bryr sig om kvaltet – med andra ord: alla!\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T083000
+DTEND;TZID=Europe/Madrid:20160605T091500
+SUMMARY:Affärsarkitektur för konsulter med affärssinne
+LOCATION:El Prado
+DESCRIPTION:I och med att de digitala lösningar vi tar fram åt våra kunder blir mer och mer affärskritiska är det viktigt att vi får djupare förståelse för kundens affär. I denna presentation kommer vi att visa på några enkla verktyg för att snabbt fånga och visualisera befintliga affärsmodeller och hur man sedan kan vidareutveckla och utmana dom.\n\nTalare: Dan Bryntze & Ola Rodin\nMålgrupp: Alla som är intresserade av affärsutveckling\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T083000
+DTEND;TZID=Europe/Madrid:20160605T091500
+SUMMARY:React Native: En upptäcksresa
+LOCATION:Recoletos
+DESCRIPTION:Utan egentliga förkunskaper ville vi testa på det här nya sättet att tackla mobil apputveckling. React Native verkar vara det nya svarta inom området.\nVår ambition var att undersöka hur pass mycket vi kunde ta med oss med en bakgrund inom webbutveckling och applicera (pun intended) detta på React Native.\nFörhoppningen av denna presentation är att sprida lite ljus på vad som verkar omdefiniera marknaden för systemutveckling mot mobila plattformar.\n\nTalare: Robert Novo & Mathias Bergqvist\nMålgrupp: Personer med intresse för mobil apputveckling, webbutvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T083000
+DTEND;TZID=Europe/Madrid:20160605T100000
+SUMMARY:OAuth 2
+LOCATION:Embajadores
+DESCRIPTION:Koda din egen OAuth 2 klient! Eller varför inte pentesta en token endpoint i Azure och se om du kan hitta några sårbarheter?\nSom utgångspunkt finns en OAuth 2 token endpoint (Resource Owner Password Credentials flow, med stöd för Refresh tokens) och en REST API resursserver publicerade i Azure. Och deltagarna kan välja fritt för hur man bygger sina klienter i sin egen utvecklingsmiljö (dock är support från handledaren begränsad till .NET och Visual Studio på Windows).\nDe deltagare som vill gräva djupare i koden bakom auktorisations och resursserver, samt en enkel Javascriptklient, ges även möjlighet till det genom tillgång till koden (ASP.NET 5 RC1, förhoppningsvis RC2 när den släpps, a k a ASP.NET Core 1.0) och förklaringar kring detta av handledaren.\n\nTalare: Tobias Ahnoff\nMålgrupp: Utvecklare i första hand, men även pentestare.\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T092500
+DTEND;TZID=Europe/Madrid:20160605T094000
+SUMMARY:⚡ Jenkins, repeat after me
+LOCATION:Plaza
+DESCRIPTION:Job DSL-plugin tillhandahåller ett kraftfullt DSL-språk (GroovyTM) för att automatisera uppskapandet av jobb och flöden i Jenkins. Ett kraftfullt verktyg för att få dig att fokusera på vad och inte hur.\n\nTalare: Petter Berglund\nMålgrupp: Alla\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T092500
+DTEND;TZID=Europe/Madrid:20160605T094000
+SUMMARY:⚡ Är min dator säker?
+LOCATION:Castellana
+DESCRIPTION:Vad bör du tänka på vid användning av en dator eller nätverksansluten enhet? Hemma, på arbetet och på resan. Jag utgår från NSA:s råd för ett säkert hemmanätverk och lägger till hur jag själv gör med nätverk, lösenord, backup, virusskanning, kryptering, VPN m.m.\n\nTalare: Anders Helgesson\nMålgrupp: Alla\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T092500
+DTEND;TZID=Europe/Madrid:20160605T094000
+SUMMARY:⚡ Sprickorna i hälleberget – eller hur kan jag förändra utan att behöva sluta koda?
+LOCATION:El Prado
+DESCRIPTION:När man som utvecklare/testare försöker så frön till förändring av arbetssätt och attityder omkring sig, känns det ibland som att de faller på hälleberget (luk 8:4). Denna blixt handlar om hur man hittar bergssprickorna i där förändringsfrön kan slå rot.\n\nTalare: Pia Fåk Sunnanbo\nMålgrupp: Utvecklare och testare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T092500
+DTEND;TZID=Europe/Madrid:20160605T094000
+SUMMARY:⚡ Heroku
+LOCATION:Recoletos
+DESCRIPTION:Heroku är en platform som möjliggör deployment betydlig enklare och sanabare jämfört med Aws. Med hjälp av Heroku toolbelt (Command line) har man tillgång till Heroko instance som kallas Dyno.\n\nTalare: Saman Jahanbakhsh\nMålgrupp: Alla\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T094500
+DTEND;TZID=Europe/Madrid:20160605T100000
+SUMMARY:⚡ Funktionell och reaktiv frontend med cycle.js
+LOCATION:Plaza
+DESCRIPTION:Var är egentligen frontend-utvecklingen på väg? Måste vi ha ett ramverk eller ekosystem som stödjer alla upptänkliga behov? Cycle.js tar utvecklingen tillbaka till det basala och tillhanda håller ett litet och icke störande ramverk. Jag kommer med hjälp av cycle.js att visa hur man kan bygga en frontend som är funktionell och reaktiv. En frontend där vi inte använder this eller setState utan som är byggd på Observables och strömmar av data.\nNi som tycker att AngularJS och React är för mycket kod och för mycket ekosystem, kom och kolla in cycle.js!\n\nTalare: Mattias Sällström\nMålgrupp: Alla som har testat angularjs eller reactjs men tycker att det är för mycket\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T094500
+DTEND;TZID=Europe/Madrid:20160605T100000
+SUMMARY:⚡ GSM-hacking för snåljåpar
+LOCATION:Castellana
+DESCRIPTION:Militär och polis kan avlyssna kommunikation över GSM med hjälp av verktyg som kostar hundratals tusen kronor. Men måste det verkligen vara så dyrt och är det verkligen något som bara staten klarar av?\nVi testar att hacka GSM med hjälp av verktyg som är både billiga och enkelt tillgängliga.\n\nTalare: Jakob Petersson\nMålgrupp: Hacking- och säkerhetsintresserade\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T094500
+DTEND;TZID=Europe/Madrid:20160605T100000
+SUMMARY:⚡ Mobben är arkitekten
+LOCATION:El Prado
+DESCRIPTION:Genom att rita och rita om tillsammans utforskar vi systemet vi arbetar med på ett sätt som låter alla bidra.\n\nTalare: Martin Carlsson\nMålgrupp: Utvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T094500
+DTEND;TZID=Europe/Madrid:20160605T100000
+SUMMARY:⚡ Slump
+LOCATION:Recoletos
+DESCRIPTION:"Vi lämnar ingenting åt slumpen" brukar det heta när det gäller någonting som är väldigt viktigt. För säker kommunikation och andra kryptorelaterade tillämpningar är det tvärt om: utan slump ingen säkerhet. Vi berättar varför slump är viktigt, hur man skapar slump, hur den används och, inte minst, vad slump egentligen är. Finns slump över huvud taget?\n\nTalare: Lars Johansson och Hannes Salin\nMålgrupp: Alla, men i synnerhet SäkApp-utvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T100000
+DTEND;TZID=Europe/Madrid:20160605T103000
+SUMMARY:🍪 Fika
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T103000
+DTEND;TZID=Europe/Madrid:20160605T111500
+SUMMARY:Reactive micro services med vert.x
+LOCATION:Plaza
+DESCRIPTION:På sin hemsida skriver man "Vert.x is an event driven and non blocking tool-kit for building reactive applications on the JVM". Under detta pass tittar vi närmare på vert.x och hur det fungerar, samt hur man relativt enkelt kan bygga icke-blockerande och skalbara lösningar i en rad olika språk. Mycket kod utlovas!\n\nTalare: Daniel Lindberg\nMålgrupp: Utvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T103000
+DTEND;TZID=Europe/Madrid:20160605T111500
+SUMMARY:Rocka med CoreOS
+LOCATION:Castellana
+DESCRIPTION:De senaste åren har trenden att bygga mikrotjänstbaserade system ökat. Samtidigt har kraven på säkerhet, fail-over-mekanismer och tillgänglighet ökat markant. CoreOS är en Linuxdustribution som är särskilt anpassad för att möta dessa utmaningar. Vi går igenom funktionerna i CoreOS och tittar på de verktyg som binder samman ett CoreOS-kluster samt visar hur enkelt det är att orkestrera applikationer i ett kluster av CoreOS-instanser.\n\nTalare: Marc Engström\nMålgrupp: Utvecklare och arkitekter\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T103000
+DTEND;TZID=Europe/Madrid:20160605T111500
+SUMMARY:ICC – vägen till att en integrationslösning skall vara i 70 år
+LOCATION:El Prado
+DESCRIPTION:Lyckade integrationer handlar förutom om lyckad teknisk lösning även om strukturerad organisation och ledning. Förutom en övergripande teknisk beskrivning handlar föredraget om hur organisation och ledning byggs upp för SKB inför slutförvaret av kärnbränsleavfall i Forsmark.\n\nTalare: Thomas Claesson\nMålgrupp: Alla som är intresserade av integrationer\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T103000
+DTEND;TZID=Europe/Madrid:20160605T111500
+SUMMARY:Introduktion till Web Components
+LOCATION:Recoletos
+DESCRIPTION:Web Components är samlingsnamnet för en uppsättning webbstandarder som till stor del kommer förändra sättet vi utvecklar webbapplikationer på. Tillsammans uppäcker vi nästa generations web med funktioner som Templates, Decorators, Shadow DOM, Custom Elements, HTML imports och hur dessa kan användas för att utveckla en komponentbaserad och modulär webb.\n\nTalare: Elias Faxö\nMålgrupp: Utvecklare med webbintresse\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T103000
+DTEND;TZID=Europe/Madrid:20160605T130000
+SUMMARY:Mobba kaosapan!
+LOCATION:Embajadores
+DESCRIPTION:Är du sugen på en kamp mot Netflix berömda kaosapa? Gillar du att mobbas? Eller vill du bara lära dig mer om att bygga stabila distribuerade system? I så fall är detta passet för dig!\nI denna hands-on-lab jobbar vi i mobbprogrammeringsform och börjar med ett stabilt men naivt implementerat mikrotjänstsystem. Med tiden släpper vi lös en allt vildare kaosapa. Mobbens uppgift blir att stabilisera systemet och bygga försvar mot apans attacker. Vi tar hjälp av Netflix egna open sourcelibbar.\n\nTalare: Jennie Mårtensson och Pia Fåk Sunnanbo\nMålgrupp: Utvecklare\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T112000
+DTEND;TZID=Europe/Madrid:20160605T120500
+SUMMARY:Få ordning på din vind/bod/garage
+LOCATION:Plaza
+DESCRIPTION:Om du tillhör den demografiska gruppen som har ett dåligt samvete på vinden så har du nytta av denna diskussion. Jag tänker visa och förklara hur jag gjort för att få ordning utan att lägga tid på det. Och behålla ordningen! Min erfarenhet är från verkstadsbod och vind men tekniken går lika bra att applicera på källare och gamla teknikprylar. Detta är tredje och sista föredraget i serien SkrivaListor-MångaProjektPåEnGång-OrdningPåVinden som handlar om att avlasta hövvet.\n\nTalare: Ola Fjelddahl\nMålgrupp: Alla som letat efter något i en vind/bod/garage\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T112000
+DTEND;TZID=Europe/Madrid:20160605T120500
+SUMMARY:Minnesträning – gymkort för hjärnan
+LOCATION:Castellana
+DESCRIPTION:Denna presentation handlar om hur du effektivt kan komma ihåg saker. Genom att "lagra" information på olika sätt kan du bestämma hur länge du vill komma ihåg saker. Jag kommer visa en del viktiga verktyg och hur de kan användas i din vardag.\n\nTalare: Dan Bryntze\nMålgrupp: Alla som vill förbättra sitt minne\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T112000
+DTEND;TZID=Europe/Madrid:20160605T120500
+SUMMARY:Projektledning – Det tidsbegränsade Ledarskapet
+LOCATION:El Prado
+DESCRIPTION:Att arbeta i projekt menar många är "bara att ta fram modellen och köra" men det är så mycket mer. Att arbeta med projekt är ett arbetssätt. Det är ett förhållningssätt till tid, människor och nätverk.\nI projektledarrollen kommer du att vara ledaren oavsett om du vill eller inte. Med det följer också möjligheter men även svårigheter. Att projektledaren har "världens svåraste jobb" är ingen överdrift men det är också en stor utmaning och berikande för den egna utvecklingen.\nSom projektdeltagare är det speciellt att jobba med två chefer (linje- och projekt) och ha ett tidsbegränsat uppdrag. Man ska vara medveten om sitt ansvar och sin del i gruppen och vad det innebär.\n\nTalare: Olof Ahlstrand\nMålgrupp: Alla som arbetar i grupp i ett tidsbegränsat uppdrag i någon form\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T112000
+DTEND;TZID=Europe/Madrid:20160605T120500
+SUMMARY:Det var en gång
+LOCATION:Recoletos
+DESCRIPTION:Med hjälp av en liten historia kommer jag beskriva de problem som asynkron programmering kan ställa till med i Javascript, och vad ES6 har i sin verktygslåda för att råda bot på problemet.\n\nTalare: Erik Werqvist\nMålgrupp: IT generellt\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T121000
+DTEND;TZID=Europe/Madrid:20160605T125500
+SUMMARY:Kickstart your development with Amazon
+LOCATION:Plaza
+DESCRIPTION:En av styrkorna med Amazon Web Services (AWS) är möjligheten att snabbt ta fram nya miljöer för projekt på ett kostnadseffektivt sätt. Vi går igenom uppsättningen av en utvecklingsmiljö och vilka alternativ och optimeringar som kan göras.\n\nTalare: Petter Berglund\nMålgrupp: Alla\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T121000
+DTEND;TZID=Europe/Madrid:20160605T125500
+SUMMARY:Your Business is under Attack – Domain Driven Security state of the art
+LOCATION:Castellana
+DESCRIPTION:In this talk, we’ll show how Domain Driven Design is used to counteract security weaknesses without one thinking "security" all the time.\nBusiness and technical attacks are two kinds of attacks, where the latter is most famous, e g SQL Injection & XSS. But it doesn’t mean business attacks are less harmful. On the contrary, they tend to be extremely sophisticated and powerful as they often leave infrastructure intact without firing alarms. Domain Driven Security is the field that counteracts both categories by using tools and mindsets from DDD.\nThis is the presentation that was awarded Dr M on OPKoKo 15.2 and since then has been brushed up, presented on several continents, and now is a double act with Dan Bergh Johnsson and Daniel Deogun.\n\nTalare: Dan Bergh Johnsson och Daniel Deogun\nMålgrupp: Rutinerade utvecklare med säkerhetsintresse, och rutinerade säkare med utvecklingsintresse\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160605T121000
+DTEND;TZID=Europe/Madrid:20160605T125500
+SUMMARY:Inte längre juniorkonsult – resan hit och projektet däremellan
+LOCATION:El Prado
+DESCRIPTION:Det här en gnilp som inte kan kokas ner till ett enda mail utan en gnilp som faktiskt kräver en presentation. Det här var projektet som tog oss från juniora konsulter till inte längre så juniora konsulter. Projektet som skulle sträckt sig över ett halvår men slutade med två år. Två år av några misstag, gör-om-gör-rätt och framför allt två år av lärdomar. Jag tänkte prata om resan hit och projektet däremellan.\n\nTalare: Joakim Rossäng\nMålgrupp: Alla\n
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160606T100000
+DTEND;TZID=Europe/Madrid:20160606T100500
+SUMMARY:Avslutning
+LOCATION:Atocha
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160606T120000
+DTEND;TZID=Europe/Madrid:20160606T120500
+SUMMARY:🚌✈️ Buss till flygplatsen (Stockholm och Köpenhamn)
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DTSTART;TZID=Europe/Madrid:20160606T150000
+DTEND;TZID=Europe/Madrid:20160606T150500
+SUMMARY:🚌✈️ Buss till flygplatsen (Göteborg)
+LOCATION:
+DESCRIPTION:
+END:VEVENT
+END:VCALENDAR
