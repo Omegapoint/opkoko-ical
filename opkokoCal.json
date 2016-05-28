@@ -1,0 +1,60 @@
+{
+"talks": [
+	{
+		"begin": "20160604T081500",
+		"end": "20160604T084500",
+		"location": "Atocha",
+		"name": "Inledning"
+	},
+	{
+		"begin": "20160604T084500",
+		"end": "20160604T091500",
+		"location": "Atocha",
+		"name": "State of the Nation"
+	},
+	{
+		"begin": "20160604T092500",
+		"end": "20160604T094000",
+		"location": "Plaza",
+		"type": "blixt",
+		"name": "Behövs branscher?",
+		"speaker": "Jakob Kylberg",
+		"description": "Det är enkelt att skapa brancher i Git och populära versionshanteringsstrategier som Git Workflow bygger i högsta grad på en uppsättning av olika typer av brancher. Men i vilken utsträckning behövs brancher? Behövs de alls?",
+		"targetAudience": "Alla som versionshanterar kod",
+		"competenceTrack": "Utveckling"
+	},
+	{
+		"begin": "20160604T092500",
+		"end": "20160604T094000",
+		"location": "Castellana",
+		"type": "blixt",
+		"name": "Digitala fingeravtryck i 3D",
+		"speaker": "Anna Karlsson",
+		"description": "När man pratar om digitala fingeravtryck menar man en kombination av egenskaper i webbläsaren som user agent, installerade insticksmoduler, kakor, mm. I denna föreläsning kommer jag att ta det steget längre och visa på att det finns mer långlivade och lika (eller mer) lättåtkomliga fingeravtryck i hårdvaran i våra mobila enheter.",
+		"targetAudience": "De som bryr sig om sin integritet",
+		"competenceTrack": "Säkerhet och Kvalitet"
+	},
+	{
+		"begin": "20160604T092500",
+		"end": "20160604T094000",
+		"location": "El Prado",
+		"type": "blixt",
+		"name": "Den ofrivillige arkitekten, en GNILP",
+		"speaker": "Markus Örebrand",
+		"description": "\"Du får vara arkitekt\". Med betänketid på en sådär tio sekunder förändras mitt uppdrag på Storbanken fundamentalt. Det är upptakten till en historia med hotade tidsplaner, incidental komplexitet, en miljon galna användare, stordatorn, Oracle-licenser... och mitt i kaoset en liten men principfast arkitekt som insisterar på att ha avvikande åsikter. Detta är historien om hur vi utmanade vattenfallet, hur vi inspirerade en hel generation svenskar att gräva djupare i sin ekonomi än saldot på lönekontot, min vacklande självbild och ett stort, om än mödosamt, kliv i karriären.",
+		"targetAudience": "Konsulter, konsultchefer, säljare, ekonomer och företagsledare",
+		"competenceTrack": "Kvalitet och Projekt"
+	},
+	{
+		"begin": "20160604T092500",
+		"end": "20160604T094000",
+		"location": "Recoletos",
+		"type": "blixt",
+		"name": "GeoPositionering: Konsten att hitta sig själv",
+		"speaker": "Fredrik Stålnacke",
+		"description": "De första satelliterna för GPS-systemet skickades upp 1978. Systemet fungerar bra så länge användaren har fri sikt mot himlen. Frågan är vad gör man när man inte längre är utomhus. Apples svar på frågan kan heta iBeacon.",
+		"targetAudience": "Nyfikna",
+		"competenceTrack": "Utveckling"
+	}
+]
+}
