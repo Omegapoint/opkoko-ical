@@ -12,12 +12,12 @@
 		"location": "Atocha",
 		"name": "State of the Nation"
 	},
+
 	{
 		"begin": "20160604T092500",
 		"end": "20160604T094000",
 		"location": "Plaza",
-		"type": "blixt",
-		"name": "Behövs branscher?",
+		"name": "⚡ Behövs branscher?",
 		"speaker": "Jakob Kylberg",
 		"description": "Det är enkelt att skapa brancher i Git och populära versionshanteringsstrategier som Git Workflow bygger i högsta grad på en uppsättning av olika typer av brancher. Men i vilken utsträckning behövs brancher? Behövs de alls?",
 		"targetAudience": "Alla som versionshanterar kod",
@@ -27,8 +27,7 @@
 		"begin": "20160604T092500",
 		"end": "20160604T094000",
 		"location": "Castellana",
-		"type": "blixt",
-		"name": "Digitala fingeravtryck i 3D",
+		"name": "⚡ Digitala fingeravtryck i 3D",
 		"speaker": "Anna Karlsson",
 		"description": "När man pratar om digitala fingeravtryck menar man en kombination av egenskaper i webbläsaren som user agent, installerade insticksmoduler, kakor, mm. I denna föreläsning kommer jag att ta det steget längre och visa på att det finns mer långlivade och lika (eller mer) lättåtkomliga fingeravtryck i hårdvaran i våra mobila enheter.",
 		"targetAudience": "De som bryr sig om sin integritet",
@@ -38,8 +37,7 @@
 		"begin": "20160604T092500",
 		"end": "20160604T094000",
 		"location": "El Prado",
-		"type": "blixt",
-		"name": "Den ofrivillige arkitekten, en GNILP",
+		"name": "⚡ Den ofrivillige arkitekten, en GNILP",
 		"speaker": "Markus Örebrand",
 		"description": "\"Du får vara arkitekt\". Med betänketid på en sådär tio sekunder förändras mitt uppdrag på Storbanken fundamentalt. Det är upptakten till en historia med hotade tidsplaner, incidental komplexitet, en miljon galna användare, stordatorn, Oracle-licenser... och mitt i kaoset en liten men principfast arkitekt som insisterar på att ha avvikande åsikter. Detta är historien om hur vi utmanade vattenfallet, hur vi inspirerade en hel generation svenskar att gräva djupare i sin ekonomi än saldot på lönekontot, min vacklande självbild och ett stort, om än mödosamt, kliv i karriären.",
 		"targetAudience": "Konsulter, konsultchefer, säljare, ekonomer och företagsledare",
@@ -49,12 +47,239 @@
 		"begin": "20160604T092500",
 		"end": "20160604T094000",
 		"location": "Recoletos",
-		"type": "blixt",
-		"name": "GeoPositionering: Konsten att hitta sig själv",
+		"name": "⚡ GeoPositionering: Konsten att hitta sig själv",
 		"speaker": "Fredrik Stålnacke",
 		"description": "De första satelliterna för GPS-systemet skickades upp 1978. Systemet fungerar bra så länge användaren har fri sikt mot himlen. Frågan är vad gör man när man inte längre är utomhus. Apples svar på frågan kan heta iBeacon.",
 		"targetAudience": "Nyfikna",
 		"competenceTrack": "Utveckling"
+	},
+
+	{
+		"begin": "20160604T092500",
+		"end": "20160604T110000",
+		"location": "Embajadores",
+		"name": "Angular 2 introduktion och workshop",
+		"speaker": "Olle Thalén",
+		"description": "I denna workshop kommer vi gå igenom den nya arkitekturen i Angular 2.0 och hur man utvecklar angularkomponenter i Typescript. Innan workshopen kommer följande delar beskrivas så alla får en introduktion nödvändig för att genomföra labbmomentet: övergripande arkitektur i Angular 2, komponenter och komponentklasser, rendering i Angular2, komponentträd och zones, modulär design med hjälp av Typescript/ES6, databindning (en-väg och två-väg), direktiv, services och dependency injection, routing.",
+		"targetAudience": "Frontendutvecklare",
+		"competenceTrack": "Workshop"
+	},
+
+	{
+		"begin": "20160604T094500",
+		"end": "20160604T100000",
+		"location": "Plaza",
+		"name": "⚡ Litar du på all din kod nu för tiden?",
+		"speaker": "Nada Kapidzic Cicovic (och ev. George Spalding)",
+		"description": "Hur kan vi kontrollera säkerhet och kvalitet i externa kodkomponenter i Continuous Integration / Continuous Delivery sammanhang. 80 - 90 % av all kodbas hämtas från Internet, ibland i realtid. Hur kan vi säkerställa att all kod beter sig korrekt?\\n\\nFrågor och diskussion.",
+		"targetAudience": "Utvecklare, säkerhetsfolk, test",
+		"competenceTrack": "Utveckling"
+	},
+	{
+		"begin": "20160604T094500",
+		"end": "20160604T100000",
+		"location": "Castellana",
+		"name": "⚡ Är du säker? Informationssäkerhet i leverantörsavtal",
+		"speaker": "Maria Sychut",
+		"description": "Hoten ökar samtidigt som lagar och förordningar förändras. Vi förlitar oss i allt större utsträckning på outsourcing och molntjänster och leverantörskedjorna blir längre och längre. Hur bra koll har vi på att både vår egen information, och den vi åtagit oss att hantera åt andra, skyddas på rätt sätt?\\nJag kommer att gå igenom varför det är viktigt att inkludera informationssäkerhetskrav i avtal. Och hur man gör det.",
+		"targetAudience": "Alla som ingår avtal eller är rådgivande i avtalsfrågor (privat eller åt företag)",
+		"competenceTrack": "Säkerhet och Kvalitet"
+	},
+	{
+		"begin": "20160604T094500",
+		"end": "20160604T100000",
+		"location": "El Prado",
+		"name": "⚡ Konsult(t)rollen – Det är bara två saker du behöver leverera",
+		"speaker": "Carl-Arne Johannesson",
+		"description": "Efter mer än 30 år i olika konsultroller har jag kommit fram till att det är två saker man måste leverera. Ger också några få men viktiga tips för att klara detta.",
+		"targetAudience": "Konsulter och deras chefer.",
+		"competenceTrack": "Kvalitet och Projekt"
+	},
+	{
+		"begin": "20160604T094500",
+		"end": "20160604T100000",
+		"location": "Recoletos",
+		"name": "⚡ Bring Your Own GSM",
+		"speaker": "Jakob Petersson",
+		"description": "GSM såg dagens ljus under tidiga nittitalet, men det har länge varit svårt och framförallt dyrt att undersöka och förstå hur GSM är implementerat och fungerar i praktiken. Idag finns öppna implementationer av hård- och mjukvara för GSM som tillåter dig att labba och undersöka själv.\\nI denna blixt beskriver Jakob hur man kan sätta upp och experimentera med ett eget GSM nät.",
+		"targetAudience": "Mjuk/Hårdvaru-hackers",
+		"competenceTrack": "Utveckling"
+	},
+
+	{
+		"begin": "20160604T100000",
+		"end": "20160604T103000",
+		"name": "🍪 Fika"
+	},
+
+	{
+		"begin": "20160604T103000",
+		"end": "20160604T111500",
+		"location": "Plaza",
+		"name": "Beyond Lambdas, the Aftermath",
+		"speaker": "Daniel Deogun, Daniel Sawano",
+		"description": "As Java developers we are used to having rich ecosystems of libraries and tools that make our lives easier. As of the release of Java 8, we finally got our hands on building blocks like lambdas, optionals, and streams. All sorts of tools that help us write more concise code. But now, when the honeymoon is over, are there any downsides to Java 8 or is it a silver bullet? Are there any new anti-patterns emerging? Or subtle bugs caused by the new style of programming? Have there been any lessons learned? Are there any best practices? If you are interested in learning about the challenges encountered when moving over to a functional style of Java programming, what code constructs to avoid, and best practices to use, well then this session is for you.",
+		"targetAudience": "Utvecklare",
+		"competenceTrack": "Utveckling"
+	},
+	{
+		"begin": "20160604T103000",
+		"end": "20160604T111500",
+		"location": "Castellana",
+		"name": "Säkra REST API:er med OAuth 2",
+		"speaker": "Tobias Ahnoff",
+		"description": "Hur säkrar men REST API:er? Presentationen ger en kort introduktion till token-baserad säkerhet (med JWT) och extern autentisering. Samt ger en grundläggande förståelse för vad OAuth 2 är, varför det (oftast) krävs något ovanpå (t ex OpenId Connect) och vilka designbeslut man som arkitekt/utvecklare behöver ta för att implementera: Resursserver, klient och auktorisationsserver, samt hantering av Refresh token\\n\\nDetta är samma presentation som hölls i samband med januari månadsmötet i Göteborg (med några mindre kompletteringar) och kan med fördel kombineras med en efterföljande workshop för utvecklare där man bygger en egen klient och ev resursserver som konsumerar tokens från en OAuth 2 implementation (hostad i Azure).",
+		"targetAudience": "Alla som är intresserade av hur man hanterar säkerhet för REST API:er.",
+		"competenceTrack": "Säkerhet och Kvalitet"
+	},
+	{
+		"begin": "20160604T103000",
+		"end": "20160604T111500",
+		"location": "El Prado",
+		"name": "Vill ni ha det klart eller vill ni ha det bra?",
+		"speaker": "Christoffer Lagerstedt",
+		"description": "När jag började som apputvecklare på Volvo var det allmän oreda. Under det senaste året har vi som grupp rört oss mot agilutveckling och ökat fokus på att leverera stabila appar med hög kodkvalitet. I denna presentationen förklarar jag hur processen har sett ut och vilka steg som har tagits.",
+		"targetAudience": "Projektledare, utvecklare",
+		"competenceTrack": "Kvalitet och Projekt"
+	},
+	{
+		"begin": "20160604T103000",
+		"end": "20160604T111500",
+		"location": "Recoletos",
+		"name": "Docker ♥ DevOps",
+		"speaker": "Johan Ekblad",
+		"description": "Hur kan man förverkliga DevOps-drömmen?\\nHur kan utvecklare testa i samma miljö som i produktion?\\n Hur får man till ett skönt Continuous deliveryöde?\\n\\nVi kommer gå igenom olika tekniker för att försöka lösa ovanstående, men även ha en diskussion om era erfarenheter och ideer.",
+		"targetAudience": "De som är DevOps-intresserade",
+		"competenceTrack": "Utveckling"
+	},
+
+	{
+		"begin": "20160604T112000",
+		"end": "20160604T120500",
+		"location": "Plaza",
+		"name": "RxJava - Everything is a Stream",
+		"speaker": "Pontus Thulin",
+		"description": "RxJava är Javaimplementationen av reactive extentions, byggt och opensourcat av Netflix. Med RX komponeras din kod ihop till eventbaserade dataströmmar, vilket får systemen att klara av betydligt högre last genom att underlätta asynkronitet.\\nObs, RX finns till flera språk och ser typ likadant ut i alla. Föreläsningen passar därför alla utvecklare.",
+		"targetAudience": "Utvecklare",
+		"competenceTrack": "Utveckling"
+	},
+	{
+		"begin": "20160604T112000",
+		"end": "20160604T120500",
+		"location": "Castellana",
+		"name": "Exjobb på Omegapoint – Domain Driven Security",
+		"speaker": "Johan Arnör och Jonas Stendahl",
+		"description": "Säkerhet är ständigt på kartan och två av dagens stora problem är injection och DDoS attacker. Nuvarande lösningar stoppar många av dessa attacker, men ändå existerar problemen. Domain Driven Security (DDS) är Omegapoints föreslagna lösning på dessa problem och har därför satt två minions på att utvärdera om detta är möjligt. Med hjälp av concept från Domain Driven Design (DDD) försöker DDS tackla dessa problem på nya och innovativa sätt. Häng med och se hur det har gått för våra exjobbare!",
+		"targetAudience": "Utvecklare",
+		"competenceTrack": "Säkerhet och Kvalitet"
+	},
+	{
+		"begin": "20160604T112000",
+		"end": "20160604T120500",
+		"location": "El Prado",
+		"name": "Balanced Score Card á la agile-sinnad organisation – teori och case",
+		"speaker": "Dan Bergh Johnsson",
+		"description": "När man väl kommit förbi den första skepticismen över \"kvartalsekonomi-ledaskap\" så visar sig Balanced Score-Card vara ett utmärkt verktyg att sätta i händerna på en ledningsgrupp för att uppmuntra till agile-sinnad styrning. Man får dock hjälpa dem lite på vägen - även en bra kniv går att skära sig på. Vi går igenom lite teori och historik för Balanced Score-Card, diskuterar hur det relaterar till arbete a la agile/lean samt tittar på två konkreta exempel från mina uppdrag.",
+		"targetAudience": "De som frustrerats över \"glastaket\" i organisationen och varför ledningsgrupper beter sig så konstigt.",
+		"competenceTrack": "Kvalitet och Projekt"
+	},
+	{
+		"begin": "20160604T112000",
+		"end": "20160604T120500",
+		"location": "Recoletos",
+		"name": "The Simple Work ow Experience",
+		"speaker": "Fredrik Thernelius",
+		"description": "Det här blir en djupdykning i en av Amazons molntjänster, Simple Workflow (SWF). Det jag vill visa är hur man med hjälp av SWF kan utveckla asynkrona och distribuerade applikationer där utvecklaren kan koncentrera sig på att leverera funktionalitet medan SWF sköter koordineringen av tasks, hantering av exekveringstillstånd med mera på ett tillförlitligt sätt.",
+		"targetAudience": "Utvecklare",
+		"competenceTrack": "Utveckling"
+	},
+
+	{
+		"begin": "20160604T112000",
+		"end": "20160604T125500",
+		"location": "Embajadores",
+		"name": "Docker och AWS ECS",
+		"speaker": "Marc Engström och Daniel Lindberg",
+		"description": "Workshop om Microservices med Docker och AWS Elastic Container Service som plattform.",
+		"targetAudience": "Utvecklare och arkitekter",
+		"competenceTrack": "Workshop"
+	},
+
+	{
+		"begin": "20160604T121000",
+		"end": "20160604T125500",
+		"location": "Plaza",
+		"name": "Vårdat, enkelt och begripligt",
+		"speaker": "David Strömberg",
+		"description": "Språklagen från 2011 sätter krav på att språket som myndigheter använder sig av ska vara \"Vårdat, enkelt och begripligt\". Detta är ett mål som är omöjligt att uppnå med manuell textanalys med tanke på de volymer som publiceras årligen. Föreläsningen ger en inblick i vad läsbarhet är, hur man utvärderar olika metoder för att analysera texters läsbarhet, varför nya utvärderingsmetoder behövs samt vilka verktyg som kan användas för att hjälpa svenska myndigheter.",
+		"targetAudience": "Alla som talar flytande svenska",
+		"competenceTrack": "Utveckling"
+	},
+	{
+		"begin": "20160604T121000",
+		"end": "20160604T125500",
+		"location": "Castellana",
+		"name": "Testautomatisering – när, vad och hur?",
+		"speaker": "Erica Löfström",
+		"description": "Manuell testning inför release är inte bara tröttsamt och kostsamt, utan det brukar även vara lätt att förbise vissa fel. Att automatisera sin testning är ett bra alternativ, men var ska man börja för att få mest nytta av sin testning? I denna presentationen kommer jag visa exempel på när automatisk testning är den bästa lösningen, samt några praktiska exempel på hur och vad man bör automatisera.",
+		"targetAudience": "Utvecklare, testare",
+		"competenceTrack": "Säkerhet och Kvalitet"
+	},
+	{
+		"begin": "20160604T121000",
+		"end": "20160604T125500",
+		"location": "El Prado",
+		"name": "Omegapythons’s Meaning of Life",
+		"speaker": "Tomas Karlsson, Simon Tardell",
+		"description": "Varför jobbar vi på Omegapoint? Vad vill du ha ut av Omegapoint? Vad gör OP till \"inte bara ett annat degjobb\"? Vilka krav betyder det att vi ska ställa på våra kunder? Har vi de kunderna som uppfyller våra professionella mål? Har vi kunder vi borde välja bort?",
+		"targetAudience": "Alla",
+		"competenceTrack": "Kvalitet och Projekt"
+	},
+	{
+		"begin": "20160604T121000",
+		"end": "20160604T125500",
+		"location": "Recoletos",
+		"name": "Meddelandehantering med Apache Kafka",
+		"speaker": "Fredrik Löfgren",
+		"description": "Hur ska man göra i en microservice-värld när era andra services vill ha information från min service? Vem är ansvarig för att datan når fram? Jag tittar på Apache Kafka och dess meddelandehantering. Kan det hjälpa mig med mina problem och i så fall hur?",
+		"targetAudience": "Utvecklare",
+		"competenceTrack": "Utveckling"
+	},
+
+	{
+		"begin": "20160604T130000",
+		"end": "20160604T140000",
+		"name": "🍽 Lunch"
+	},
+
+	{
+		"begin": "20160604T140000",
+		"end": "20160604T140500",
+		"name": "🚲 Samling för cykling"
+	},
+
+	{
+		"begin": "20160604T141500",
+		"end": "20160604T142000",
+		"name": "🖼 Samling för kulturpromenad"
+	},
+
+	{
+		"begin": "20160604T183000",
+		"end": "20160604T183500",
+		"name": "💪 Omegapoint Strongman"
+	},
+
+	{
+		"begin": "20160604T200000",
+		"end": "20160604T200500",
+		"name": "Samling i hotellets trädgård"
+	},
+
+	{
+		"begin": "20160604T210000",
+		"end": "20160604T210500",
+		"name": "🍽💃 Middag och fest"
 	}
 ]
 }

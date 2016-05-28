@@ -88,13 +88,7 @@ class OpkokoJsonParser:
         begin = talk['begin']
         end = talk['end']
         summary = talk['name']
-        location = talk['location']
-        # Optional
-        if 'type' in talk:
-            if talk['type'] == 'blixt':
-                summary = '⚡ ' + summary
-            elif talk['type'] == 'fika':
-                summary = '🍪 ' + summary
+        location = '' if 'location' not in talk else talk['location']
 
         description = ''
         if 'description' in talk:
@@ -104,7 +98,6 @@ class OpkokoJsonParser:
         if 'targetAudience' in talk:
             description += "Målgrupp: " + talk['targetAudience'] + "\\n"
 
-        #
         self.calendar.addEvent(begin, end, summary, location, description)
 
 # -- Code Here --
