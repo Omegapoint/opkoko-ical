@@ -264,7 +264,7 @@
 	{
 		"begin": "20160604T190000",
 		"end": "20160604T200000",
-		"name": "Fri tid"
+		"name": "🆓 Fri tid"
 	},
 	{
 		"begin": "20160604T200000",
@@ -306,6 +306,23 @@
 		"begin": "20160605T210000",
 		"end": "20160605T210500",
 		"name": "🍽💃 Middag och fest"
+	},
+
+	{
+		"begin": "20160606T100000",
+		"end": "20160606T120000",
+		"location": "Atocha",
+		"name": "Avslutning"
+	},
+	{
+		"begin": "20160606T120000",
+		"end": "20160606T120500",
+		"name": "🚌✈️ Buss till flygplatsen (Stockholm och Köpenhamn)"
+	},
+	{
+		"begin": "20160606T150000",
+		"end": "20160606T150500",
+		"name": "🚌✈️ Buss till flygplatsen (Göteborg)"
 	}
 ]
 }
