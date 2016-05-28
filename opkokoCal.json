@@ -251,34 +251,60 @@
 		"end": "20160604T140000",
 		"name": "🍽 Lunch"
 	},
-
 	{
 		"begin": "20160604T140000",
-		"end": "20160604T140500",
-		"name": "🚲 Samling för cykling"
+		"end": "20160604T180000",
+		"name": "Omegapoint Travel Award"
 	},
-
 	{
-		"begin": "20160604T141500",
-		"end": "20160604T142000",
-		"name": "🖼 Samling för kulturpromenad"
+		"begin": "20160604T180000",
+		"end": "20160604T190000",
+		"name": "Målgång på Rincon de la Cava"
 	},
-
 	{
-		"begin": "20160604T183000",
-		"end": "20160604T183500",
-		"name": "💪 Omegapoint Strongman"
+		"begin": "20160604T190000",
+		"end": "20160604T200000",
+		"name": "Fri tid"
 	},
-
 	{
 		"begin": "20160604T200000",
-		"end": "20160604T200500",
-		"name": "Samling i hotellets trädgård"
+		"end": "20160604T203000",
+		"name": "🚌 Buss från hotellet"
 	},
+	{
+		"begin": "20160604T203000",
+		"end": "20160604T203500",
+		"name": "🍽 Middag på Asador Real"
+	}
 
 	{
-		"begin": "20160604T210000",
-		"end": "20160604T210500",
+		"begin": "20160605T130000",
+		"end": "20160605T140000",
+		"name": "🍽 Lunch"
+	},
+	{
+		"begin": "20160605T140000",
+		"end": "20160605T140500",
+		"name": "🚲 Samling för cykling"
+	},
+	{
+		"begin": "20160605T141500",
+		"end": "20160605T142000",
+		"name": "🖼 Samling för kulturpromenad"
+	},
+	{
+		"begin": "20160605T183000",
+		"end": "20160605T183500",
+		"name": "💪 Omegapoint Strongman"
+	},
+	{
+		"begin": "20160605T200000",
+		"end": "20160605T200500",
+		"name": "Samling i hotellets trädgård"
+	},
+	{
+		"begin": "20160605T210000",
+		"end": "20160605T210500",
 		"name": "🍽💃 Middag och fest"
 	}
 ]
